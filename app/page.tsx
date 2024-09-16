@@ -11,13 +11,12 @@ export default function Home() {
           <SiReaddotcv color="#9ca3af" />
         </div>
         <h1 className="text-4xl font-semibold text-gray-800 capitalize">
-          Easily Create tailored resumes for each <br /> job application based
-          on the job description
+          Effortlessly Create Tailored Resumes for Every Job <br /> Application
+          Based on the Job Description
         </h1>
         <p className="text-gray-600 text-base">
-          Our innovative platform offers a robust solution to help you stay
-          organized, focused and on <br />
-          track to achieve your strategic objectives
+          Streamline your job search with custom resumes tailored <br />
+          to each job description—quick, easy, and effective.
         </p>
         <div className="flex flex-col lg:flex-row space-x-0 lg:space-x-5 space-y-5 lg:space-y-0 items-center justify-center">
           <Button
