@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <section className="text-center space-y-10 pt-14 min-h-[100vh] lg:min-h-[80vh]">
         <div className="flex items-center justify-center space-x-2">
-          <p className="text-gray-400 text-sm">Tailored Resume</p>
+          <p className="text-gray-400 text-sm">AI Tailored Resume Generator</p>
           <SiReaddotcv color="#9ca3af" />
         </div>
         <h1 className="text-4xl font-semibold text-gray-800 capitalize">
