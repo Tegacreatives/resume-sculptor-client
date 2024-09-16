@@ -13,7 +13,7 @@ const Navbar = () => {
     console.log(isOpen);
   };
   return (
-    <nav className="flex items-center justify-between text-black py-10 px-14">
+    <nav className="flex items-center justify-between text-black py-10 px-10 md:px-14">
       <Link href="/">Resume Sculptor</Link>
       <ul
         className={`flex-col space-y-10 py-20 lg:py-0 items-center lg:flex-row lg:space-y-0 lg:space-x-16 bg-white lg:bg-transparent absolute lg:static left-0 right-0 top-0 z-10    ${
