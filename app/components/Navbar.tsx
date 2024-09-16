@@ -42,7 +42,7 @@ const Navbar = () => {
       </ul>
       <button
         onClick={toogleNavBar}
-        className="block lg:hidden absolute right-20 z-30"
+        className="block lg:hidden absolute right-10 z-30"
       >
         <RiMenu3Fill size={24} />
       </button>
