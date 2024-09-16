@@ -15,8 +15,10 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Resume Sculptor | AI resume generator for different job descriptions",
-  description: "Easily generate tailored resumes for specifc job descriptions",
+  title:
+    "Resume Sculptor | AI-Powered Resume Generator Tailored to Any Job Description",
+  description:
+    "Easily generate tailored resumes for specific job descriptions with Resume Sculptor, an AI-powered tool designed to streamline your job search.",
 };
 
 export default function RootLayout({
