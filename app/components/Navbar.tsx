@@ -3,6 +3,8 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Button from "./Button";
 
+import { RiMenu3Fill } from "react-icons/ri";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -42,7 +44,7 @@ const Navbar = () => {
         onClick={toogleNavBar}
         className="block lg:hidden absolute right-20 z-30"
       >
-        MENU
+        <RiMenu3Fill size={24} />
       </button>
       <div className="hidden lg:block">
         <Button text="Coming Soon" address="https://app.resumesculptor.com" />
