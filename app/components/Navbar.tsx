@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import Button from "./Button";
+import Button from "../common/Button";
 
 import { RiMenu3Fill } from "react-icons/ri";
 

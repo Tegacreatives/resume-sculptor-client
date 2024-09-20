@@ -1,6 +1,10 @@
-import Button from "./components/Button";
+import Button from "./common/Button";
+
+import DetailsSection from "./components/landingPage/DetailsSection";
 
 import { SiReaddotcv } from "react-icons/si";
+import HowItWorks from "./components/landingPage/HowItWorks";
+import PricingSection from "./components/landingPage/PricingSection";
 
 export default function Home() {
   return (
@@ -10,7 +14,7 @@ export default function Home() {
           <p className="text-gray-400 text-sm">AI Tailored Resume Generator</p>
           <SiReaddotcv color="#9ca3af" />
         </div>
-        <h1 className="text-4xl font-semibold text-gray-800 capitalize">
+        <h1 className="font-semibold text-gray-800 ">
           Effortlessly Create Tailored Resumes for Every Job <br /> Application
           Based on the Job Description
         </h1>
@@ -26,6 +30,9 @@ export default function Home() {
           <Button text="Coming Soon" address="" light />
         </div>
       </section>
+      <DetailsSection />
+      <HowItWorks />
+      <PricingSection />
     </div>
   );
 }
