@@ -37,7 +37,7 @@ const Navbar = () => {
         </li>
 
         <div className="block lg:hidden">
-          <Button text="Coming Soon" address="https://app.resumesculptor.com" />
+          <Button text="Coming Soon" address="/" />
         </div>
       </ul>
       <button
@@ -47,7 +47,7 @@ const Navbar = () => {
         <RiMenu3Fill size={24} />
       </button>
       <div className="hidden lg:block">
-        <Button text="Coming Soon" address="https://app.resumesculptor.com" />
+        <Button text="Coming Soon" address="/" />
       </div>
     </nav>
   );
