@@ -24,7 +24,7 @@ const largeOptions = [
 
 const PricingSection = () => {
   return (
-    <section className="flex flex-col items-center justify-center space-y-14 lg:px-24">
+    <section className="flex flex-col items-center justify-center space-y-14 px-10 lg:px-24">
       <div className="text-center space-y-3">
         <h2>Affordable Pricing Plans</h2>
         <p>

@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${font.className} antialiased`}>
         <Navbar />
-        <div className="px-10 md:px-14">{children}</div>
+        <div className=" ">{children}</div>
         <Footer />
       </body>
     </html>

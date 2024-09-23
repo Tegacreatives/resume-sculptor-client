@@ -5,7 +5,7 @@ import { MdDownloading } from "react-icons/md";
 
 const HowItWorks = () => {
   return (
-    <section className="py-24 space-y-14">
+    <section className="py-24 space-y-14 px-10 lg:px-24">
       <div className="text-center lg:max-w-[40vw] m-auto space-y-8">
         <h1>How It Works</h1>
         <p>

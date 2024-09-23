@@ -29,7 +29,7 @@ const ContactPage = () => {
         />
 
         <div className="text-center">
-          <Button text="Submit" address="/contact" />
+          <Button text="Submit" address="/" />
         </div>
       </form>
     </div>
