@@ -8,8 +8,8 @@ import PricingSection from "./components/landingPage/PricingSection";
 
 export default function Home() {
   return (
-    <div>
-      <section className="text-center space-y-10 pt-14 min-h-[100vh] lg:min-h-[80vh] px-10 lg:px-24">
+    <div className="space-y-16 lg:space-y-24">
+      <section className="text-center space-y-10 lg:pt-14 min-h-[100vh] lg:min-h-[70vh] px-10 lg:px-24">
         <div className="flex items-center justify-center space-x-2">
           <p className="text-gray-400 text-sm">AI Tailored Resume Generator</p>
           <SiReaddotcv color="#9ca3af" />

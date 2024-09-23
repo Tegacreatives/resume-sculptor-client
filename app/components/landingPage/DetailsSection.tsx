@@ -42,7 +42,10 @@ const DetailsSection = () => {
       </div>
       <div className="grid gr0d-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
         {features.map((feature, index) => (
-          <div key={index} className="space-y-2">
+          <div
+            key={index}
+            className="space-y-2 hover:bg-slate-50/10 cursor-pointer p-4 rounded-2xl"
+          >
             <h3 className="text-white text-xl font-semibold">
               {feature.title}
             </h3>
