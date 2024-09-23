@@ -13,11 +13,13 @@ const mediumOptions = [
   "Generate up to 20 resumes",
   "Create sharable links for resumes",
   "Export to PDF or Docs",
+  "Share resume credits to friends",
 ];
 const largeOptions = [
   "Generate up to 30 resumes",
   "Create sharable links for resumes",
   "Export to PDF or Docs",
+  "Share resume credits to friends",
 ];
 
 const PricingSection = () => {
