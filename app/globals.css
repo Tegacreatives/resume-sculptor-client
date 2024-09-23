@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: aliceblue;
+  background-color: rgb(224 231 255 / 1);
 }
 
 h1 {
